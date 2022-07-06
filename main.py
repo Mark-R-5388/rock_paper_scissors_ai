@@ -23,19 +23,19 @@ elif player == "rock":
 	if computer == "scissors":
 		print("rock beats scissors, Player 1 wins")
 	elif computer == "paper":
-		print("paper covers rock, player 2 wins")
+		print("paper covers rock, computer wins")
 
 elif player == "scissors":
 	if computer == "paper":
 		print("scissors cuts paper, player 1 wins")
 	if computer == "rock":
-		print("rock smashes scissors, player 2 wins")
+		print("rock smashes scissors, computer wins")
 
 elif player == "paper":
 	if computer == "rock":
 		print("paper covers rock, player 1 wins")
 	if computer == "scissors":
-		print("scissors cuts paper, player 2 wins")
+		print("scissors cuts paper, computer wins")
 
 else:
 	print("Something went wrong")
